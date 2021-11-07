@@ -3,7 +3,7 @@ import './App.css';
 import axios from 'axios';
 
 // function App() {
-//   const [advice, setAdvice] = useState();
+//   const [advice, setAdvice] = useState('');
  
 //   useEffect(() => {
 //     axios.get('https://api.adviceslip.com/advice')
@@ -13,6 +13,7 @@ import axios from 'axios';
 //     .catch((error) => {
 //       console.log(error);
 //     }
+//    setAdvice = response;
 //   },[])
  
   
